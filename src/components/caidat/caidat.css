@@ -1,0 +1,260 @@
+.caidatleft {
+    float: left;
+    width: 20%;
+    border-right: 1px solid #bbb;
+    height: 100vh;
+    padding: 1%;
+    margin-right: 10%;
+    background: #fff;
+    overflow-y: scroll;
+    perspective-origin: right top;
+    position: relative;
+}
+
+.caidatleft ul {
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    text-align: left;
+}
+
+.caidatleft li {
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.caidatleft li svg,
+.divchungcaidat svg {
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+}
+
+.caidatleft ul li {
+    margin-left: 10%;
+    width: 80%;
+    display: inline-block;
+}
+
+.cosubmenu span::after {
+    color: #2F80ED;
+    border-right: 2px solid currentcolor;
+    border-bottom: 2px solid currentcolor;
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 0px;
+    transform: rotate(45deg);
+    top: 32px;
+
+}
+
+.cosubmenu span {
+    width: 100%;
+    display: inline-block;
+}
+
+.caidatright {
+    width: 54%;
+    display: inline-block;
+    height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    position: relative;
+    align-items: stretch;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+
+.caidatleft ul li ul {
+    width: 88%;
+    float: right;
+    margin-top: 10px;
+}
+
+.caidatleft ul li:last-child {
+    margin-bottom: 0;
+}
+
+.divchungcaidat {
+    padding: 2%;
+    width: 96%;
+    float: left;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    height: 100%;
+    background: #fff;
+    display: inline-table;
+}
+
+.divchungcaidat .titlecd {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bbb;
+}
+
+.xacminh {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    width: inherit;
+    height: fit-content;
+
+    background: rgba(252, 74, 74, 0.87);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.xacminh.tb{padding: 0;background: none;}
+.xacminh.tb *{color: #000;}
+.xacminh svg{border: 1px solid #fff;background: #fff;color: rgba(252, 74, 74, 0.87);}
+.xacminh.mk{background: #AFAA31;}
+.xacminh.mk.dx{background: rgba(252, 74, 74, 0.87);}
+.divchungcaidat p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.xacminh svg {
+    top: 0;
+}
+
+.ndnd {
+    float: left;
+}
+
+.ndnd span {
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+}
+.ndnd.chan span{line-height: 20px;height: auto;}
+.ndnd span.bold{font-weight: bold;}
+
+.btnd {
+    width: 34%;
+    padding: 10px;
+    background: #49F25A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.btnd span {
+    color: #fff;
+}
+.inputnd{width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;    border-bottom: 1px solid #bbb;
+    padding: 10px 0;display: inline-block;}
+    .inputnd.dx{border-bottom: none;}
+.inputnd .phai{float: right;}
+.inputnd .phai.mxh{float: left;width: 100%;}
+.inputnd span.span{width: -webkit-fill-available;margin-bottom: 10px;display: inline-block;text-align: left;}
+.inputnd span.span.mota{font-style: italic;color: #bbb;}
+.inputnd .trai{float: left;}
+.inputnd .trai.cha{float: right;}
+.inputnd span.left{float: left;line-height: 35px;}
+.inputnd input, .inputnd .trai.ip .css-b62m3t-container{    padding: 0 10px;
+    width: 246px;
+    height: 45px;
+    top: -17px;
+    border: 1px solid #CDCDCD;
+    border-radius: 0px 5px 5px 0px;
+    margin-right: 0;
+    border: 1px solid #bbb;
+    color: #000;}
+    .inputnd input.inputcd{width: 100%;}
+.inputnd svg, .inputnd span.sp{width: 45px;
+    height: 45px;
+    
+    background: #CDCDCD;
+    border-radius: 5px 0px 0px 5px;border: 1px solid #bbb;
+    color: #000;margin-right: 0;padding: 10px;top: 0;
+    padding: 5px 10px;}
+    .inputnd span.sp{    padding: 10px;    padding-bottom: 14px;
+    }
+    .inputnd .mk svg{    background: no-repeat;
+        border: none;
+        width: 45px;
+        color: #fff;}
+    .phai input.ttt{top: 2px;}
+    .luuthaydoi{display: inline-block;width: 100%;text-align: right;margin-top: 10px;cursor: pointer;}
+    .luuthaydoi.chan{width: auto;float: left;margin: 0;}
+    .luuthaydoi span{color: #fff;width: fit-content;
+        height: 40px;
+        
+        background: #2F80ED;
+        border-radius: 5px;padding: 10px;display: inline-block;}
+        .inputnd .trai input{top: 0;border-radius: 5px;width: 100%;}
+        .inputnd .trai .phai input{width: 73%;
+            top: -17px;border-top-left-radius: 0;border-bottom-left-radius: 0;
+        }
+        .inputnd .phai.ip input{top: 0;border-radius: 5px;}
+        .inputnd .phai.ip{text-align: right;width: 43%;}
+        .inputnd .trai.ip{text-align: left;width: 43%;}
+        .inputnd .trai.ip.chan{width: 100%;}
+        .inputnd .ip.ntn{width: 30%;}
+        .ctnd{display: inline-block;width: 100%;}
+        .ctnd.ntn{display: flex;width: 100%;flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;}
+        .inputnd .trai.ip .css-b62m3t-container {width: 100%;top: 0;padding: 0;}
+        .inputnd .trai.ip .css-1s2u09g-control {height: 100%;}
+        .inputnd .trai.ip .css-319lph-ValueContainer {height: 100%;display: block;}
+        .inputnd .trai.ip .css-1pahdxg-control {height: 100%;display: block;height: 100%;}
+        .inputnd .trai.ip .css-1hb7zxy-IndicatorsContainer {height: 100%;}
+        .inputnd .trai.ip.mt{width: 100%;}
+        .inputnd .trai.ip.mt input{width: 100%;}
+.css-b62m3t-container svg{background: no-repeat;
+    border: none;height: 20px;width: 20px;}
+    .css-6j8wv5-Input{width: 100%;}
+    span.span.ns{width: 100%;}
+    .xacthucluuthaydoi{display: inline-block;background: #49F25A;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;padding: 10px;width: 100%;margin-top: 10px;color: #fff;}
+        .tbcd{float: left;position: relative;}
+        .luuthaydoi.tb{padding-top: 10px;border-top: 1px solid #bbb;}
+.xacminhcc{width: 100%;display: inline-block;}
+.xacminhcc span{}
+.xacminhcc img{width: 74%;
+    height: auto;
+    display: table;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #bbb;}
+.xacminhanh{width: 48%;float: left;text-align: center;}
+.xacminhcm{width: 48%;float: right;text-align: center;}
+p.xmt   {display: inline-block;width: 100%;text-align: left;font-weight: normal;}
+.noidungcd textarea{width: 97%;display: inline-block;height: 110px;border-radius: 3px;padding: 10px;}
+.xacminh.xacminh{width: 100%;}
+.xacminh.xl{background: #AFAA31;}
+.xacminh.ht{background: #49F25A;}
+p.ct{text-align: center;}
+.Select-input > input{width: auto !important;}
+.ant-select.slchan{width: 43%;float: left;margin-right: 20px;}
+.bochanclick{cursor: pointer;}
+.giua{display: inline-block;width: 100%;text-align: center;}
+.xoataikhoan{padding: 10px;border: 5px;color: #fff;background: rgba(252, 74, 74, 0.87);
+    width: 25%;
+    border-radius: 5px;
+    margin: auto;
+    height: 45px;
+}
+.xoataikhoan svg{background: none;border: none;border-radius: 0;color: #fff;float: left;}
+.xoataikhoan svg{    top: -10px;
+    float: left;}
